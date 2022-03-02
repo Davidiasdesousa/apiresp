@@ -1,70 +1,75 @@
 {
-   "meta":{
-      "cartao_credito":{
-         "number":"4444444444444444",
-         "cvc":223,
-         "expirationMonth":"07",
-         "expirationYear":"28",
-         "holder":[
-            "fullname":"DAVI DIAS DE SOUSA",
-            "birthdate":1988-05-06,
-            "taxDocument":{
-               "type":"CPF",
-               "number":12339193770
-            }
-         ]
-      },
-      "obs":"Pagamento realizado em: 27/02/2022 17:52:09"
+   meta: {
+     is_sell: true,
+     product_data: {
+       message: 'Product found!',
+       hasError: false,
+       type: 'simple',
+       name: 'Cadeira de escritório Travel Max',
+       slug: 'cadeira-de-escritorio-travel-max',
+       date_created: [Object],
+       date_modified: [Object],
+       status: 'publish',
+       post_status: 'publish',
+       featured: false,
+       catalog_visibility: 'visible',
+       description: 'A escolha de uma cadeira adequada é muito importante para evitar futuras lesões. Com esta cadeira da Travel Max você terá o conforto é o bem-estar que precisa ao longo do seu dia. Além disso, você pode colocá-la em qualquer lugar da sua casa ou oficina, pois o seu design se adapta a vários ambientes. Dê um toque mais moderno aos seus espaços!\r\n' +
+         '\r\n' +
+         'Ajuste-a a sua medida\r\n' +
+         'Com seu ajuste de altura, você poderá fixar a posição de seu torso em relação à mesa de trabalho e assim obterá uma cadeira mais confortável ao nível de suas necessidades.\r\n' +
+         '\r\n' +
+         'Cuide do seu corpo\r\n' +
+         'Os apoios de braços vão favorecer a sua postura ao escrever e o ajudarão a se incorporar com mais facilidade quando quiser.\r\n' +
+         '\r\n' +
+         'Mantenha-se em movimentoAs rodas permitirão a você mover e limpar facilmente o seu espaço. Você será capaz de movê-la sem dificuldade quando precisar.Além disso, sendo giratória, permitirá que você gire o assento 360º sem a necessidade de mudar de posição ou se mover de onde você está.',
+       short_description: '',
+       sku: '3911363',
+       menu_order: 0,
+       virtual: false,
+       product_id: 399,
+       permalink: 'https://payagil.com/pack/produto/cadeira-de-escritorio-travel-max/',
+       product_thumbnail_url: 'https://payagil.com/pack/wp-content/uploads/2021/10/2418378465_1.webp',
+       price: '30000',
+       regular_price: '30000',
+       sale_price: '000',
+       data_on_sale_from: null,
+       date_on_sale_to: null,
+       total_sales: 19,
+       tax_status: 'taxable',
+       tax_class: '',
+       manage_stock: true,
+       stock_quantity: 9,
+       stock_status: 'instock',
+       backorder: 'no',
+       sold_individually: false,
+       purchase_note: '',
+       shipping_class_id: 0,
+       needs_shipping: true,
+       calc_shipping: 'yes',
+       is_in_stock: true
+     },
+     shipping: 4735,
+     parcelas: 1,
+     cartao_credito: {
+       number: '4444444444444444',
+       cvc: 123,
+       expirationMonth: '07',
+       expirationYear: '28',
+       holder: [Object]
+     },
+     obs: 'Pagamento realizado em: 02/03/2022 13:10:06'
    },
-   "value_cc":30000,
-   "value_account":0,
-   "uid":"V6qWlR9upnXTbd159N1VJiLUMbWF+blimyoq2Usa8e8=",
-   "product_qty":1,
-   "product_obj":{
-      "message":"Product found!",
-      "hasError":false,
-      "type":"simple",
-      "name":"Cadeira de escritório Travel Max",
-      "slug":"cadeira-de-escritorio-travel-max",
-      "date_created":{
-         "date":"2021-10-28 00:53:53.000000",
-         "timezone_type":1,
-         "timezone":"+00:00"
-      },
-      "date_modified":{
-         "date":"2021-11-18 21:01:33.000000",
-         "timezone_type":1,
-         "timezone":"+00:00"
-      },
-      "status":"publish",
-      "post_status":"publish",
-      "featured":false,
-      "catalog_visibility":"visible",
-      "description":"A escolha de uma cadeira adequada é muito importante para evitar futuras lesões. Com esta cadeira da Travel Max você terá o conforto é o bem-estar que precisa ao longo do seu dia. Além disso, você pode colocá-la em qualquer lugar da sua casa ou oficina, pois o seu design se adapta a vários ambientes. Dê um toque mais moderno aos seus espaços!\r\n""+""\r\n""+""Ajuste-a a sua medida\r\n""+""Com seu ajuste de altura, você poderá fixar a posição de seu torso em relação à mesa de trabalho e assim obterá uma cadeira mais confortável ao nível de suas necessidades.\r\n""+""\r\n""+""Cuide do seu corpo\r\n""+""Os apoios de braços vão favorecer a sua postura ao escrever e o ajudarão a se incorporar com mais facilidade quando quiser.\r\n""+""\r\n""+""Mantenha-se em movimentoAs rodas permitirão a você mover e limpar facilmente o seu espaço. Você será capaz de movê-la sem dificuldade quando precisar.Além disso, sendo giratória, permitirá que você gire o assento 360º sem a necessidade de mudar de posição ou se mover de onde você está.",
-      "short_description":"",
-      "sku":"3911363",
-      "menu_order":0,
-      "virtual":false,
-      "product_id":399,
-      "permalink":"https://payagil.com/pack/produto/cadeira-de-escritorio-travel-max/",
-      "product_thumbnail_url":"https://payagil.com/pack/wp-content/uploads/2021/10/2418378465_1.webp",
-      "price":"30000",
-      "regular_price":"30000",
-      "sale_price":"000",
-      "data_on_sale_from":null,
-      "date_on_sale_to":null,
-      "total_sales":19,
-      "tax_status":"taxable",
-      "tax_class":"",
-      "manage_stock":true,
-      "stock_quantity":9,
-      "stock_status":"instock",
-      "backorder":"no",
-      "sold_individually":false,
-      "purchase_note":"",
-      "shipping_class_id":0,
-      "needs_shipping":true,
-      "calc_shipping":"yes",
-      "is_in_stock":true
-   }
-}
+   produtos: [
+     {
+       nome: 'Cadeira de escritório Travel Max',
+       categoria: 'OTHERS',
+       qtd: 1,
+       descricao: 'A escolha de um',
+       preco: '30000'
+     }
+   ],
+   value_cc: 30000,
+   value_account: 0,
+   uid: 'd1d7917c-338f-472c-8aa8-8fdbc4e2ab44'
+ }
+ 
