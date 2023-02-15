@@ -1,0 +1,1814 @@
+{
+    "historico_de_saude_cirurgias_lesoes": [
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você faz uso contínuo de algum outro remédio além dos já identificados durante a nossa entrevista?",
+                "options": [
+                    {
+                        "option": "Sim",
+                        "type": "input_text",
+                        "label": "Escreva o nome dos remédios que você usa continuamente."
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Observação: responda sim apenas para os remédios que ainda não tenha identificado."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você já teve alguma fratura óssea além das já identificadas durante a nossa entrevista?",
+                "options": [
+                    {
+                        "option": "Sim",
+                        "type": "check",
+                        "label": "Escreva o nome dos remédios que você usa continuamente.",
+                        "options": [
+                            {
+                                "check": "Crânio"
+                            },
+                            {
+                                "check": "Clavícula"
+                            },
+                            {
+                                "check": "Úmero (braço)"
+                            },
+                            {
+                                "check": "Rádio (antebraço)"
+                            },
+                            {
+                                "check": "Ulna (antebraço)"
+                            },
+                            {
+                                "check": "Osso(s) da mão ou dos dedos"
+                            },
+                            {
+                                "check": "Vértebra(s)"
+                            },
+                            {
+                                "check": "Costela(s)"
+                            },
+                            {
+                                "check": "Quadril"
+                            },
+                            {
+                                "check": "Fémur"
+                            },
+                            {
+                                "check": "Tíbia (perna)"
+                            },
+                            {
+                                "check": "Perónio (perna)"
+                            },
+                            {
+                                "check": "Osso(s) do pé"
+                            }
+                        ]
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Observação: apenas fraturas que foram tratadas SEM cirurgia."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você já teve alguma fratura óssea além das já identificadas durante a nossa entrevista?",
+                "options": [
+                    {
+                        "option": "Sim",
+                        "type": "check",
+                        "label": "De que região é o ligamento que você rompeu ou que você fez a reconstrução ligamentar?",
+                        "options": [
+                            {
+                                "check": "Ombro",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Cotovelo",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Punho",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Quadril",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Joelho",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Tornozelo",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Pé",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Outro (qual)",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Observação: responda sim apenas para lesões que ainda não tenham sido identificadas durante a nossa entrevista."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você já teve alguma fratura óssea além das já identificadas durante a nossa entrevista?",
+                "options": [
+                    {
+                        "option": "Sim",
+                        "type": "check",
+                        "label": "De que região é o ligamento que você rompeu ou que você fez a reconstrução ligamentar?",
+                        "options": [
+                            {
+                                "check": "Ombro",
+                                "type": "check",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Cotovelo",
+                                "type": "check",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Punho",
+                                "type": "check",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Quadril",
+                                "type": "check",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Joelho",
+                                "type": "check",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Tornozelo",
+                                "type": "check",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Pé",
+                                "type": "check",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Outro (qual)",
+                                "type": "check",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Observação: responda sim apenas para lesões que ainda não tenham sido identificadas durante a nossa entrevista."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem algum desvio postural ou desalinhamento articular?",
+                "options": [
+                    {
+                        "option": "Sim",
+                        "type": "check",
+                        "label": "Qual o desvio postural ou desalinhamento articular?",
+                        "options": [
+                            {
+                                "check": "Escoliose"
+                            },
+                            {
+                                "check": "Hiperlordose lombar"
+                            },
+                            {
+                                "check": "Hiperlordose cervical"
+                            },
+                            {
+                                "check": "Hipercifose torácixa"
+                            },
+                            {
+                                "check": "Retificação da coluna"
+                            },
+                            {
+                                "check": "Joelho valgo (joelhos para dentro)"
+                            },
+                            {
+                                "check": "Joelho varo (joelhos para fora)"
+                            },
+                            {
+                                "check": "Outro (qual)",
+                                "type": "input_text"
+                            }
+                        ]
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Observação: responda sim apenas para as fraturas que ainda não tenham sido identificadas durante a nossa entrevista."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem algum outro problema ósseo, articular ou muscular que não tenha sido identificado durante a nossa entrevista?",
+                "options": [
+                    {
+                        "option": "Sim",
+                        "type": "check",
+                        "label": "Qual o problema ósseo, articular ou muscular que você tem?",
+                        "options": [
+                            {
+                                "check": "Tendinite",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Bursite",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Condropatia / Condromalácia",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Síndrome do impacto do ombro",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Frouxidão ligamentar",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Lesão no menisco",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Impacto femoroacetabular (lesão na cabeça do fêmur)",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Fibromialgia",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Hérnia de disco",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            },
+                            {
+                                "check": "Outro (qual)",
+                                "input": "text",
+                                "options": [
+                                    {
+                                        "check": "Fiz cirurgia"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Observação: responda sim apenas para problemas que ainda não tenham sido identificados durante a nossa entrevista."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você já realizou alguma outra cirurgia além das já identificadas durante a nossa entrevista?",
+                "options": [
+                    {
+                        "option": "Sim",
+                        "type": "check",
+                        "label": "Qual o problema ósseo, articular ou muscular que você tem?",
+                        "options": [
+                            {
+                                "check": "Cirurgia bariátrica"
+                            },
+                            {
+                                "check": "Cirurgia estética, plástica ou reconstrutiva"
+                            },
+                            {
+                                "check": "Cirurgia neurológica"
+                            },
+                            {
+                                "check": "Cirurgia oftalmológica"
+                            },
+                            {
+                                "check": "Cirurgia otorrinolaringológica"
+                            },
+                            {
+                                "check": "Cirurgia do aparelho digestivo"
+                            },
+                            {
+                                "check": "Cirurgia vascular"
+                            },
+                            {
+                                "check": "Cirurgia urológica"
+                            },
+                            {
+                                "check": "Cirurgia oncológica"
+                            },
+                            {
+                                "check": "Cirurgia neurológica"
+                            },
+                            {
+                                "check": "Cirurgia ginecológica"
+                            },
+                            {
+                                "check": "Cesária"
+                            },
+                            {
+                                "check": "Outra(s), Qual(is)",
+                                "type": "input_text"
+                            }
+                        ]
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Observação: responda sim apenas para as cirurgias que ainda não tenha identificado."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem alguma outra condição médica além das já identificadas durante a nossa entrevista?",
+                "options": [
+                    {
+                        "option": "Sim",
+                        "type": "check",
+                        "label": "Que tipo de condição médica você tem?",
+                        "options": [
+                            {
+                                "check": "Epilepsia"
+                            },
+                            {
+                                "check": "Condições neurológicas"
+                            },
+                            {
+                                "check": "Problemas de rim"
+                            },
+                            {
+                                "check": "Outra(s), Qual(is)",
+                                "type": "input_text"
+                            }
+                        ]
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Observação: a epilepsia, condições neurológicas ou problemas de rim são outras condições médicas que devem ser relatadas."
+            }
+        }
+    ],
+    "historico_de_saude_risco_de_doenca_cardiovascular": [
+        {
+            "type": "radio",
+            "data": {
+                "label": "Qual o seu sexo?",
+                "options": [
+                    {
+                        "option": "Masculino"
+                    },
+                    {
+                        "option": "Feminino"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "input_text",
+            "data": {
+                "label": "Qual o seu peso corporal?"
+            }
+        },
+        {
+            "type": "input_text",
+            "data": {
+                "label": "Qual a sua altura?"
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Seu pai ou irmão antes dos 55 anos de idade ou sua mãe ou irmã antes dos 65 anos de idade tiveram um ataque cardíaco, passaram por uma cirurgia cardíaca ou tiveram morte súbita?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    },
+                    {
+                        "option": "Não sei"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você fuma ou parou de fumar nos últimos 6 meses?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você pratica atividade física planejada e estruturada por no mínimo 30 minutos em intensidade moderada (ou vigorosa) ao menos 3 dias da semana nos últimos 3 meses?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você é hipertenso?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "input_text",
+            "data": {
+                "label": "Qual a sua pressão arterial?"
+            }
+        },
+        {
+            "type": "paragraph",
+            "data": {
+                "label": "Qual o valor do colesterol total, colesterol LDL (bom) e colesterol HDL (ruim)?"
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Colesterol total",
+                "referencia_tipo": "subpergunta",
+                "options": [
+                    {
+                        "option": "Não sei, mas sempre foi normal"
+                    },
+                    {
+                        "option": "Não sei, mas estava alterado nos últimos exames"
+                    },
+                    {
+                        "option": "Sei o valor exato, quero digitar",
+                        "type": "input_text"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Colesterol LDL",
+                "referencia_tipo": "subpergunta",
+                "options": [
+                    {
+                        "option": "Não sei, mas sempre foi normal"
+                    },
+                    {
+                        "option": "Não sei, mas estava alterado nos últimos exames"
+                    },
+                    {
+                        "option": "Sei o valor exato, quero digitar",
+                        "type": "input_text"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Colesterol HDL",
+                "referencia_tipo": "subpergunta",
+                "options": [
+                    {
+                        "option": "Não sei, mas sempre foi normal"
+                    },
+                    {
+                        "option": "Não sei, mas estava alterado nos últimos exames"
+                    },
+                    {
+                        "option": "Sei o valor exato, quero digitar",
+                        "type": "input_text"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você toma algum remédio para controlar o seu colesterol? Se sim, qual?",
+                "referencia_tipo": "subpergunta",
+                "options": [
+                    {
+                        "option": "Sim",
+                        "type": "input_text"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Qual o valor da glicose plasmática no jejum?",
+                "referencia_tipo": "subpergunta",
+                "options": [
+                    {
+                        "option": "Não sei, mas sempre foi normal"
+                    },
+                    {
+                        "option": "Não sei, mas estava alterado nos últimos exames"
+                    },
+                    {
+                        "option": "Sei o valor exato, quero digitar",
+                        "type": "input_text"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você toma algum remédio para controlar a glicose? Se sim, qual?",
+                "referencia_tipo": "subpergunta",
+                "options": [
+                    {
+                        "option": "Sim",
+                        "type": "input_text"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        }
+    ],
+    "historico_de_saude_sugestivo_doenca": [
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você experimenta dor ou desconforto no peito, no pescoço, no queixo, nos braços ou em outras áreas com o esforço físico?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você experimenta encurtamento da respiração ou falta de ar durante o repouso ou com esforço leve a moderado?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você apresenta frequentemente tontura ou síncope (perda da consciência)?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Não considere a tontura imediatamente após o fim de um exercício físico, quando esporádica."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você apresenta falta de ar com dificuldade de respirar quando está em repouso em posição deitado (ortopneia) ou durante o sono (dispneia paroxística noturna)?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você experimenta frequentemente inchaço no tornozelo que se torna mais evidente à noite?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você experimenta frequentemente palpitações ou taquicardia (consciência desagradável do batimento forçado ou rápido do coração)?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem frequentemente a sensação de queimação ou de câimbra acompanhada de dor em suas pernas quando caminha distâncias curtas?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem um sopro cardíaco conhecido e seu médico sugeriu atenção ao mesmo?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você apresenta fadiga incomum ou encurtamento da respiração em atividades usuais (do dia-a-dia)?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        }
+    ],
+    "historico_de_saude_musculoesquelético": [
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem problemas e/ou doença musculoesquelética que possam ser agravados e/ou limitam a prática de atividade física? Observação: identifique como SIM quando seu médico realmente restringiu a prática de atividade física. Caso você tenha dúvida na resposta, marque NÃO SEI.",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    },
+                    {
+                        "option": "Não Sei"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem problemas ou doença óssea que possam ser agravados e/ou limitam a prática de atividade física?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem problemas ou doença articular que possam ser agravados e/ou limitam a prática de atividade física?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem algum problema de saúde mental ou dificuldades de aprendizado? Observação: isso inclui doença de Alzheimer, demência, depressão, transtorno de ansiedade, transtorno alimentar, transtorno psicótico, deficiência intelectual, síndrome de Down). Caso você tenha dúvida na resposta, marque NÃO SEI.",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem doença de Alzheimer?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem demência?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem depressão?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem transtorno de ansiedade?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem transtorno psicótico?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem deficiência intelectual?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem síndrome de Down?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        }
+    ],
+    "historico_de_saude_cancer": [
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem, no momento, câncer? Caso você tenha dúvida na resposta, marque NÃO SEI.",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    },
+                    {
+                        "option": "Não Sei"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "O seu diagnóstico de câncer incluí um dos seguintes tipos: pulmão, mieloma múltiplo (câncer das células plasmáticas), cabeça e/ou pescoço?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você está recebendo atualmente terapia de câncer (como quimioterapia ou radioterapia)?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        }
+    ],
+    "historico_de_saude_metabolico": [
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem alguma doença metabólica (diabetes e/ou doença renal)? Caso você tenha dúvida na resposta, marque NÃO SEI",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    },
+                    {
+                        "option": "Não Sei"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem diabetes do tipo 1?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem diabetes do tipo 2?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem doença renal crônica?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        }
+    ],
+    "historico_de_saude_respiratorio": [
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você já teve ou tem algum problema pulmonar ou doença respiratória? Caso você tenha dúvida na resposta, marque NÃO SEI",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem doença pulmonar obstrutiva crônica (DPOC)",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem asma?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem doença pulmonar intersticial?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Ajuda: doença pulmonar intersticial é um grupo de doenças respiratórias caracterizadas pela progressiva cicatrização do interstício pulmonar resultando em insuficiência respiratória."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem fibrose cística?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        }
+    ],
+    "historico_de_saude_cardio": [
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você já teve ou tem algum problema cardiovascular ou doença cardíaca (exceto hipertensão)?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    },
+                    {
+                        "option": "Não sei"
+                    }
+                ],
+                "tips": "Caso você tenha dúvida na resposta, marque NÃO SEI."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você já teve um ataque cardíaco?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você já fez uma cirurgia cardíaca?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você já fez um cateterismo no coração?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Ajuda: o cateterismo cardíaco é realizado pela introdução de um cateter através de artérias ou veias periféricas até às diferentes estruturas do coração."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você já fez uma angioplastia coronária?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Ajuda: A angioplastia coronária é um procedimento médico minimamente invasivo para desobstrução das artérias coronárias, restabelecendo a passagem normal do sangue."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem marca-passo cardíaco?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Ajuda: o marca-passo cardíaco é um pequeno aparelho colocado cirurgicamente junto ao coração ou abaixo da mama que serve para regular as batidas do coração, quando este encontra-se comprometido."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem doença cardíaca valvar?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Ajuda: na doença cardíaca valvular, pelo menos uma das quatro válvulas cardíacas que mantêm o fluxo de sangue na direção adequada através do coração não funciona corretamente"
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem insuficiência cardíaca crônica?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Ajuda: insuficiência cardíaca é um distúrbio em que o coração não consegue suprir as necessidades do corpo, causando redução do fluxo sanguíneo, refluxo (congestão) de sangue nas veias e nos pulmões e/ou outras alterações que podem debilitar ou enrijecer ainda mais o coração"
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você fez um transplante cardíaco?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você já teve um acidente vascular cerebral (derrame cerebral)?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem uma doença vascular periférica?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Ajuda: condição circulatória em que vasos sanguíneos estreitos reduzem o fluxo de sangue para os membros."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem uma cardiopatia congênita?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],
+                "tips": "Ajuda: cardiopatia congênita é uma doença cardíaca com anormalidade na estrutura ou função do coração desde o nascimento, mesmo que descoberto no nascimento ou anos mais tarde."
+            }
+        }
+    ],
+    "s_1": [
+        {
+            "paragraph": "Você identificou que apresenta um problema cardiovascular ou doença cardíaca associada ao mau funcionamento do coração. Em relação a essa condição, responda às seguintes questões:"
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem dificuldade em controlar a sua condição cardiovascular com o tratamento prescrito pelo médico?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você toma algum remédio para controlar o seu problema cardíaco?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem um batimento cardíaco irregular que requer tratamento médico (ex.: fibrilação atrial, contração ventricular prematura)?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você foi diagnosticado com doença arterial coronariana e não participou de atividade física regular nos últimos 2 meses?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        }
+    ],
+    "s_2": [
+        {
+            "paragraph": "Você identificou que já teve um acidente vascular cerebral. Em relação a essa condição, responda às seguintes questões:"
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem dificuldade em controlar a sua condição cerebrovascular com o tratamento prescrito pelo médico?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você toma algum remédio para controlar o seu problema cerebrovascular?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você teve algum prejuízo na caminhada ou na mobilidade?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você teve um acidente vascular cerebral ou dano nos nervos ou músculos nos últimos 6 meses?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        }
+    ],
+    "s_3": [
+        {
+            "paragraph": "Você identificou que tem ou já teve um problema pulmonar ou doença respiratória. Em relação a essa condição, responda às seguintes questões:"
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem dificuldade em controlar a sua condição pulmonar com o tratamento prescrito pelo médico?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você toma algum remédio para controlar o seu problema respiratório?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Alguma vez o seu médico disse que os seus níveis de oxigênio no sangue são baixos em repouso ou durante o exercício físico e/ou que você precisa de terapia suplementar de oxigênio?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Se asmático, você tem sintomas frequentes (mas do que 2 vezes por semana) de aperto no peito, chiado, respiração difícil ou ofegante, tosse consistente, ou usou a sua medicação de emergência mais do que 2 vezes na última semana?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    },
+                    {
+                        "option": "Não sou asmático"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Alguma vez o seu médico disse que você tem pressão arterial alta nos vasos sanguíneos do seu pulmão?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        }
+    ],
+    "s_4": [
+        {
+            "paragraph": "Você identificou que tem uma doença metabólica. Em relação a essa condição, responda às seguintes questões:"
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem frequentemente dificuldade em controlar os seus níveis de açúcar no sangue com as comidas, medicação ou outros tipos de terapia prescritas por médico?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você toma algum remédio para controlar os seus níveis de açúcar no sangue?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você frequentemente sofre de sinais ou sintomas de baixo açúcar no sangue (hipoglicemia) após o exercício físico e/ou durante atividades do dia-a-dia? ",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ],"tips":"Ajuda: sinais de hipoglicemia podem incluir tremor, nervosismo, irritabilidade incomum, sudorese anormal, tontura, confusão mental, dificuldade em falar, fraqueza ou sonolência."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem sinais ou sintomas de complicações da diabetes, como doença cardiovascular ou complicações afetando os seus olhos, rins, ou a falta de sensibilidade nos seus dedos e pés?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem outros problemas metabólicos como problemas no fígado?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você está planejando iniciar em um futuro próximo exercício físico que para você é considerado alta intensidade e muito cansativo?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        }
+    ],
+    "s_5": [
+        {
+            "paragraph": "Você identificou que tem problemas ou doença musculoesquelética que limitam a sua atividade física. Em relação a essa condição, responda às seguintes questões:"
+        },
+        {
+            "type": "check",
+            "data": {
+                "label": "Você tem artrite, osteoporose ou problemas na coluna?",
+                "options": [
+                    {
+                        "check": "Artrite"
+                    },
+                    {
+                        "check": "Osteoporose"
+                    },
+                    {
+                        "check": "Problemas na coluna"
+                    },
+                    {
+                        "check": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem dificuldade em controlar a sua condição musculoesquelética com o tratamento prescrito pelo médico?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você toma algum remédio para controlar o seu problema musculoesquelético?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem problemas nas articulações que causam dor, uma fratura recente ou fratura causada por osteoporose ou câncer, vértebra deslocada (espondilolistese), e/ou espondilólise?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você realizou injeções de esteroides ou ingeriu esteroides regularmente por mais de 3 meses?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        }
+    ],
+    "s_6": [
+        {
+            "paragraph": "Você identificou que tem pressão arterial alta. Em relação a essa condição, responda às seguintes questões:"
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem dificuldade em controlar a sua pressão arterial com o tratamento prescrito pelo médico?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você toma algum remédio para controlar a sua pressão arterial?",
+                "options": [
+                    {
+                        "option": "Sim",
+                        "type":"input_text"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem pressão arterial de repouso maior ou igual que 160/90 mmHg com ou sem medicação?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    },
+                    {
+                        "option": "Não sei"
+                    }
+                ]
+            }
+        }  
+    ],
+    "s_7": [
+        {
+            "paragraph": "Você identificou que tem algum problema de saúde ou dificuldades de aprendizado. Em relação a essa condição, responda às seguintes questões:"
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem dificuldade em controlar a sua saúde mental com o tratamento prescrito pelo médico?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você toma algum remédio para controlar a sua saúde mental?",
+                "options": [
+                    {
+                        "option": "Sim",
+                        "type":"input_text"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem síndrome de Down e problemas na coluna vertebral que afetam os nervos e os músculos (apenas os 2 em conjunto)?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        }  
+    ]
+}
