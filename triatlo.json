@@ -145,7 +145,7 @@
             }
         },
         {
-            "type": "option",
+            "type": "radio",
             "data": {
                 "label": "É a primeira vez que contrata uma assessoria de triatlo?",
                 "options": [
@@ -165,7 +165,7 @@
             }
         },
         {
-            "type": "check",
+            "type": "radio",
             "data": {
                 "label": "O plano de treino contratado é para acompanhamento em que tipo de provas de triatlo?",
                 "options": [
@@ -194,7 +194,7 @@
             }
         },
         {
-            "type": "check",
+            "type": "radio",
             "data": {
                 "label": "Qual a modalidade que você tem mais facilidade?",
                 "options": [
@@ -214,7 +214,7 @@
             }
         },
         {
-            "type": "check",
+            "type": "radio",
             "data": {
                 "label": "Qual a modalidade que você tem mais dificuldade?",
                 "options": [
@@ -247,7 +247,7 @@
             }
         },
         {
-            "type": "option",
+            "type": "check",
             "data": {
                 "label": "Quais dias por semana pode/pretende treinar? Informe com cuidado os dias da semana para treinar. Seu plano de treino irá considerar os dias que você indicar.",
                 "options": [
@@ -276,7 +276,7 @@
             }
         },
         {
-            "type": "check",
+            "type": "radio",
             "data": {
                 "label": "Quantos minutos por sessão tem disponível para treinar durante a semana (segunda a sexta)",
                 "options": [
@@ -302,7 +302,7 @@
             }
         },
         {
-            "type": "option",
+            "type": "radio",
             "data": {
                 "label": "Você utiliza o fim de semana para treinos mais longos? Se sim, quais os dias que você pode fazer os treinos mais longos no fim de semana?",
                 "options": [
@@ -322,7 +322,7 @@
             }
         },
         {
-            "type": "option",
+            "type": "radio",
             "data": {
                 "label": " Qual o período do dia de sua preferência para treinar?",
                 "options": [
@@ -339,7 +339,7 @@
             }
         },
         {
-            "type": "option",
+            "type": "radio",
             "data": {
                 "label": "Quantas horas você pode/pretende treinar por semana (total)?",
                 "options": [
@@ -371,7 +371,7 @@
             }
         },
         {
-            "type": "option",
+            "type": "radio",
             "data": {
                 "label": "Possui conta no TrainingPeaks?",
                 "options": [
@@ -391,7 +391,7 @@
             }
         },
         {
-            "type": "text",
+            "type": "radio",
             "data": {
                 "label": "Possui monitor de frequência cardíaca? Pode ser usado na água?",
                 "options": [
@@ -408,7 +408,7 @@
             }
         },
         {
-            "type": "option",
+            "type": "radio",
             "data": {
                 "label": "Possui medidor de potência na bike?",
                 "options": [
@@ -434,7 +434,7 @@
             }
         },
         {
-            "type": "option",
+            "type": "radio",
             "data": {
                 "label": "Atualmente, você tem acompanhamento nutricional?",
                 "options": [
@@ -448,7 +448,7 @@
             }
         },
         {
-            "type": "option",
+            "type": "radio",
             "data": {
                 "label": "Você tem uma dieta vegetariana? Se sim, qual?",
                 "options": [

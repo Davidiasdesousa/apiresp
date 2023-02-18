@@ -214,7 +214,7 @@
             }
         },
         {
-            "type": "check",
+            "type": "radio",
             "data": {
                 "label": "Quantos minutos por sessão tem disponível para treinar durante a semana (segunda a sexta)",
                 "options": [

@@ -164,7 +164,7 @@
             }
         },
         {
-            "type": "option",
+            "type": "radio",
             "data": {
                 "label": "Com qual frequência semanal você pretende treinar?",
                 "options": [
@@ -219,7 +219,7 @@
             }
         },
         {
-            "type": "option",
+            "type": "radio",
             "data": {
                 "label": "Quantos minutos por sessão tem disponível para treinar?",
                 "options": [
@@ -248,7 +248,7 @@
             }
         },
         {
-            "type": "option",
+            "type": "radio",
             "data": {
                 "label": "Qual o período do dia de sua preferência para treinar?",
                 "options": [
@@ -267,7 +267,7 @@
                 ]
             }
         },  {
-            "type": "option",
+            "type": "radio",
             "data": {
                 "label": " Onde você pretende treinar?",
                 "options": [
@@ -296,7 +296,7 @@
             }
         },
         {
-            "type": "option",
+            "type": "radio",
             "data": {
                 "label": "Atualmente, você tem acompanhamento nutricional?",
                 "options": [
@@ -310,7 +310,7 @@
             }
         },
         {
-            "type": "option",
+            "type": "radio",
             "data": {
                 "label": "Você tem uma dieta vegetariana? Se sim, qual?",
                 "options": [
