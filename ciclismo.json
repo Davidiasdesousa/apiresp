@@ -1,0 +1,451 @@
+{
+    "splash": [
+        {
+            "type": "paragraph",
+            "data": {
+                "label": "Olá _user_ Queremos que você adote o exercício físico como um estilo de vida saudável! "
+            }
+        },
+        {
+            "type": "paragraph",
+            "data": {
+                "label": "Sabia que o melhor programa de exercícios físicos para você é aquele que se adapta aos seus objetivos e preferências? "
+            }
+        },
+        {
+            "type": "paragraph",
+            "data": {
+                "label": "Que tal nos contar um pouco sobre o seu histórico e preferências de exercício físico, os seus objetivos e as metas com a prática de atividades físicas?"
+            }
+        },
+        {
+            "type": "paragraph",
+            "data": {
+                "label": "Seja totalmente verdadeiro(a) nas suas respostas. O seu programa de exercícios físicos também depende destas informações. Não hesite em escrever com detalhes."
+            }
+        }
+    ],
+    "questions": [
+        {
+            "type": "paragraph",
+            "data": {
+                "label": "Vamos iniciar conhecendo um pouco sobre o seu histórico de atividades físicas e o ciclismo."
+            }
+        },
+        {
+            "type": "check",
+            "data": {
+                "label": "Qual(is) atividade(s) física(s) você pratica atualmente?",
+                "options": [
+                    {
+                        "option": "Nenhuma"
+                    },
+                    {
+                        "option": "Corrida"
+                    },
+                    {
+                        "option": "Caminhada"
+                    },
+                    {
+                        "option": "Pilates"
+                    },
+                    {
+                        "option": "Treino funcional"
+                    },
+                    {
+                        "option": "Natação"
+                    },
+                    {
+                        "option": "Crossfit"
+                    },
+                    {
+                        "option": "Ciclismo"
+                    },
+                    {
+                        "option": "Spinning"
+                    },
+                    {
+                        "option": "Musculação"
+                    },
+                    {
+                        "option": "Futebol"
+                    },
+                    {
+                        "option": "Voleibol"
+                    },
+                    {
+                        "option": "Basquetebol"
+                    },
+                    {
+                        "option": "Handebol"
+                    },
+                    {
+                        "option": "Yoga"
+                    },
+                    {
+                        "option": "Outro (qual)"
+                    },
+                    {
+                        "option": "Avançar"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": {
+                "label": "Caso realize atividades físicas atualmente, descreva brevemente a sua rotina de treinos (quantas vezes por semana; tempo de treino; exercícios realizados; etc.)."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Como você se considera em relação à prática do ciclismo?",
+                "options": [
+                    {
+                        "option": "Nunca pedalei por esporte ou lazer. Estou iniciando a prática com vocês."
+                    },
+                    {
+                        "option": "Iniciante. Pedalo há menos de 2 anos e/ou meus pedais nunca foram superiores a 40 km."
+                    },
+                    {
+                        "option": "Intermediário. Pedalo há menos de 4 anos e/ou meus pedais nunca foram superiores a 70 km e/ou participo de competições apenas por lazer"
+                    },
+                    {
+                        "option": "Avançado. Pedalo há mais de 4 anos e realizo pedais com frequência superiores a 70 km e/ou participo em competições para me desafiar."
+                    },
+                    {
+                        "option": "Atleta. Participo em competições com o objetivo de classificação."
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": {
+                "label": "Quantos quilômetros rodados de bike no último mês?"
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "É a primeira vez que contrata uma assessoria de ciclismo?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "paragraph",
+            "data": {
+                "label": "Perfeito! Vamos agora conversar sobre os seus objetivos e metas com o ciclismo."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "O plano de treino contratado é para acompanhamento em qual modalidade?",
+                "options": [
+                    {
+                        "option": "Estrada"
+                    },
+                    {
+                        "option": "MTB"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": {
+                "label": "Descreva os seus principais objetivos e metas com a prática do ciclismo. Descreva o que achar relevante para que nossa equipe possa personalizar ao máximo o seu programa de treinamento."
+            }
+        },
+        {
+            "type": "text",
+            "data": {
+                "label": "Dentro do período de treino, irá ocorrer alguma competição ou evento alvo? Se sim, descreva e coloque a data."
+            }
+        },
+        {
+            "type": "text",
+            "data": {
+                "label": "Tem algum tipo de treino preferencial?"
+            }
+        },
+        {
+            "type": "text",
+            "data": {
+                "label": "Tem algum treino específico ou abordagem que não goste ou cause desconforto?"
+            }
+        },
+        {
+            "type": "check",
+            "data": {
+                "label": "Quais dias por semana pode/pretende treinar? Informe com cuidado os dias da semana para treinar. Seu plano de treino irá considerar os dias que você indicar.",
+                "options": [
+                    {
+                        "option": "Segunda"
+                    },
+                    {
+                        "option": "Terça"
+                    },
+                    {
+                        "option": "Quarta"
+                    },
+                    {
+                        "option": "Quinta"
+                    },
+                    {
+                        "option": "Sexta"
+                    },
+                    {
+                        "option": "Sábado"
+                    },
+                    {
+                        "option": "Domingo"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "check",
+            "data": {
+                "label": "Quantos minutos por sessão tem disponível para treinar durante a semana (segunda a sexta)",
+                "options": [
+                    {
+                        "option": "30 minutos"
+                    },
+                    {
+                        "option": "60 minutos"
+                    },
+                    {
+                        "option": "90 minutos"
+                    },
+                    {
+                        "option": "120 minutos"
+                    },
+                    {
+                        "option": "180 minutos"
+                    },
+                    {
+                        "option": "Livre"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você utiliza o fim de semana para treinos mais longos? Se sim, quais os dias que você pode fazer os treinos mais longos no fim de semana?",
+                "options": [
+                    {
+                        "option": "Não"
+                    },
+                    {
+                        "option": "Sábado"
+                    },
+                    {
+                        "option": "Domingo"
+                    },
+                    {
+                        "option": "Os dois dias"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Qual o período do dia de sua preferência para treinar?",
+                "options": [
+                    {
+                        "option": "Manhã"
+                    },
+                    {
+                        "option": "Tarde"
+                    },
+                    {
+                        "option": "Noite"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Quantas horas você pode/pretende treinar por semana (total)?",
+                "options": [
+                    {
+                        "option": "1 a 4 horas"
+                    },
+                    {
+                        "option": "5 a 9 horas"
+                    },
+                    {
+                        "option": "10 a 12 horas"
+                    },
+                    {
+                        "option": "Mais de 12 horas"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "paragraph",
+            "data": {
+                "label": "Continuando o nosso questionário, queremos saber um pouco dos seus hábitos alimentares."
+            }
+        },
+        {
+            "type": "text",
+            "data": {
+                "label": "Possui perfil no Strava? Se sim, digite o seu perfil."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Possui conta no TrainingPeaks?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": {
+                "label": "Possui GPS para marcar o treino? Se sim, qual a marca e o modelo?"
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Possui monitor de frequência cardíaca?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Possui medidor de potência na bike?",
+                "options": [
+                    {
+                        "option": "Não"
+                    },
+                    {
+                        "option": "Sim, na bike de estrada"
+                    },
+                    {
+                        "option": "Sim, na MTB"
+                    },
+                    {
+                        "option": "Sim, em ambas"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": {
+                "label": "Caso você seja iniciante e ainda não tenha uma bike, quanto você deseja investir em uma bike?"
+            }
+        },
+        {
+            "type": "paragraph",
+            "data": {
+                "label": "Estamos quase no final. Queremos saber um pouco dos seus hábitos alimentares."
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Atualmente, você tem acompanhamento nutricional?",
+                "options": [
+                    {
+                        "option": "Sim"
+                    },
+                    {
+                        "option": "Não"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "radio",
+            "data": {
+                "label": "Você tem uma dieta vegetariana? Se sim, qual?",
+                "options": [
+                    {
+                        "option": "Não"
+                    },
+                    {
+                        "option": "Ovolactovegetariana"
+                    },
+                    {
+                        "option": "Lactovegetariana"
+                    },
+                    {
+                        "option": "Ovovegetariana"
+                    },
+                    {
+                        "option": "Vegetariana estrita"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "data": {
+                "label": "Atualmente, você está praticando algum outro tipo de dieta com restrição calórica? Se sim, qual?"
+            }
+        },
+        {
+            "type": "text",
+            "data": {
+                "label": "Descreva, resumidamente, os seus hábitos alimentares (come quantas vezes ao dia; tipos de alimentos; local das refeições; tipo de refeições; restrição de alimentos; alimentação nos treinos; etc."
+            }
+        },
+        {
+            "type": "text",
+            "data": {
+                "label": "Você usa ou pretende usar algum tipo de suplemento alimentar? Se sim, qual?"
+            }
+        },
+        {
+            "type": "text",
+            "data": {
+                "label": "Você usa ou pretende usar, por conta própria ou prescrito por médico, esteroides anabólicos ou qualquer outro tipo de hormônios para melhorar a sua forma física? Se sim, qual?"
+            }
+        },
+        {
+            "type": "paragraph",
+            "data": {
+                "label": "Ótimo! Estamos terminando, falta só mais uma questão!"
+            }
+        },
+        {
+            "type": "text",
+            "data": {
+                "label": "Caso ache necessário, descreva o que achar relevante para que o seu programa de treinamento possa ser o mais personalizado possível"
+            }
+        }
+    ]
+}
